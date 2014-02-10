@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExquisiteLetters</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="red">Red</string>
+    <string name="black">Black</string>
+    <string name="colour">Colour</string>
+    <string name="blue">Blue</string>
+    <string name="next_pressed">Next Button Pressed</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="magenta">Magenta</string>
+    <string name="small">Small</string>
+    <string name="medium">Medium</string>
+    <string name="large">Large</string>
+    <string name="draw">Draw</string>
+    <string name="erase">Erase</string>
+
+</resources>

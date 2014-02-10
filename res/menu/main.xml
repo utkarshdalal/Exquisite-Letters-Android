@@ -1,0 +1,67 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/color"
+          android:title="@string/colour" 
+          android:showAsAction="always">
+		<menu>
+	    	<group android:checkableBehavior="single">
+		    	<item android:id="@+id/red"
+		        	android:showAsAction="ifRoom"
+		          	android:title="@string/red" />
+		      	<item android:id="@+id/black" 
+		          	android:title="@string/black" 
+		          	android:showAsAction="ifRoom"
+		          	android:checked="true" />
+		      	<item android:id="@+id/blue"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/blue" />
+		      	<item android:id="@+id/yellow"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/yellow" />
+		      	<item android:id="@+id/green"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/green" />
+		      	<item android:id="@+id/magenta"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/magenta" />
+		  	</group>
+		</menu>
+	</item>
+	<item
+		android:id="@+id/draw"
+	    android:title="@string/draw"
+	    android:showAsAction="always">
+		<menu>
+	    	<group android:checkableBehavior="single">
+		    	<item android:id="@+id/small"
+		        	android:showAsAction="ifRoom"
+		          	android:title="@string/small"
+		          	android:checked="true" />
+		      	<item android:id="@+id/medium" 
+		          	android:title="@string/medium" 
+		          	android:showAsAction="ifRoom" />
+		      	<item android:id="@+id/large"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/large" />
+		  	</group>
+		</menu>
+	</item>
+	<item
+		android:id="@+id/erase"
+	    android:title="@string/erase"
+	    android:showAsAction="always">
+		<menu>
+	    	<group android:checkableBehavior="single">
+		    	<item android:id="@+id/erasesmall"
+		        	android:showAsAction="ifRoom"
+		          	android:title="@string/small"
+		          	android:checked="true" />
+		      	<item android:id="@+id/erasemedium" 
+		          	android:title="@string/medium" 
+		          	android:showAsAction="ifRoom" />
+		      	<item android:id="@+id/eraselarge"
+		        	android:showAsAction="ifRoom"
+		            android:title="@string/large" />
+		  	</group>
+		</menu>
+	</item>
+</menu>
